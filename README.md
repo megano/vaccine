@@ -10,7 +10,7 @@
 <br>
 <a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis.ipynb" target="_blank">Jupyter Notebook Viewer - Full Project</a>
 <br>
-<a href="https://github.com/megano/vaccine/blob/main/prioritization_analysis_visuals.ipynb" target="_blank">Jupyter Notebook Viewer - Visuals</a>
+<a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis_visuals.ipynb" target="_blank">Jupyter Notebook Viewer - Visuals</a>
 
 ## Table of contents
 - [Summary](#summary)
@@ -93,7 +93,8 @@ We use several data sources to visualize covid's cumulative impact on various co
 + **Note**: If GitHub doesn't load the notebook please refer to:
      + <a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis.ipynb" target="_blank">Jupyter Notebook Viewer - Full 
   Project</a>
-     + <a href="https://github.com/megano/vaccine/blob/main/prioritization_analysis_visuals.ipynb" target="_blank">Jupyter Notebook Viewer - Visuals</a>
+     + <a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis_visuals.ipynb" target="_blank">Jupyter Notebook Viewer - Visuals</a>
+
 ## 
 ![Various Plots](https://github.com/megano/vaccine/blob/main/images/covid-deaths-proportional-county-map.png "Covid Deaths County Map")
 
