@@ -41,14 +41,17 @@ We use several data sources to visualize covid's cumulative impact on various co
 + Covid19 Confirmed Cases: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
 + Covid19 Total Deaths: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
 <br>
+
 **California Hospital Data by County (Update frequency - Daily):**
-+ https://data.ca.gov/dataset/529ac907-6ba1-4cb7-9aae-8966fc96aeef
++ Hospital Data: https://data.ca.gov/dataset/529ac907-6ba1-4cb7-9aae-8966fc96aeef
 <br>
+
 **California Population Data by County:**
-+ https://worldpopulationreview.com/us-counties/states/ca
++ Population Data: https://worldpopulationreview.com/us-counties/states/ca
 <br>
+
 **California Geo JSON file for Folium choropleth map**:
-+ https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson
++ California Geo JSON Data: https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson
 
 ## Methods Used
 [(Back to top)](#table-of-contents)
