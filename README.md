@@ -13,8 +13,7 @@
 <a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis_visuals.ipynb" target="_blank">Jupyter Notebook Viewer - Visuals</a>
 
 ## Table of contents
-- [Summary](#summary)
-- [Problem](#problem)
+- [Project Objective](#summary)
 - [Data](#data)
 - [Methods Used](#methods-used)
 - [Technologies](#technologies)
@@ -22,15 +21,10 @@
 - [Project Results](#project-results)
 - [Installation](#installation)
 
-## Summary
+## Project Objective
 [(Back to top)](#table-of-contents)
 <br>
-This is a pro-bono project with the goal of creating data visualizations & zip code prioritizations to aid public health officials as they decide where & how to distribute the covid-19 vaccines & what equity metrics to use to track distribution. We're currently focused on CA, since that's where we live, but can run a similar analysis on any of the 50 US states. Reach out if you think your state or county would be interested. 
-
-## Problem
-[(Back to top)](#table-of-contents)
-<br>
-State Public Health Officials are tackling unprescidented logistical, financial and trust challenges in distributing the covid-19 vaccine in addition to racial and ethnic disparities. 
+This project aims to create data visualizations and zip code prioritizations to aid public health officials in deciding where and how to distribute the covid-19 vaccines and what equity metrics to use to track distribution. Since that's where we live, we're currently focused on California but can run a similar analysis on any of the 50 US states. Please reach out if you think your state or county would be interested to learn more about this project.
 
 ## Data
 [(Back to top)](#table-of-contents)
@@ -40,7 +34,7 @@ We use several data sources to visualize covid's cumulative impact on various co
 **Covid 19 Data (Update frequency - Daily):**
 + Covid19 Confirmed Cases: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
 + Covid19 Total Deaths: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
-<br>
+G<br>
 
 **California Hospital Data by County (Update frequency - Daily):**
 + Hospital Data: https://data.ca.gov/dataset/529ac907-6ba1-4cb7-9aae-8966fc96aeef
@@ -80,6 +74,10 @@ We use several data sources to visualize covid's cumulative impact on various co
 ## Project Description:
 [(Back to top)](#table-of-contents)
 <br>
++ We collected multiple datasets to conduct this analysis. We imported Covid19, Hospital, Healthyplaceindex, and Population data. 
++ We cleaned our data by using Pandas and filtered all the information down to California's 58 counties. For two counties, such as Alpine and Sierra, the California government didn't provide any hospital information. As a result, we decided to set the value to zero. 
++ Regarding feature engineering, we converted the data type from object to  DateTime, created columns such as the total covid cases and deaths for each county per 100,000 people, percentage of deaths based on total cases, etc.
++ For our visuals, we primarily focused on using Seaborn, Plotly, and Folium. We had to incorporate a Geo JSON file for the Folium choropleth maps to get the county's correct layers. 
 
 ## Project Results:
 [(Back to top)](#table-of-contents)
@@ -94,9 +92,6 @@ We use several data sources to visualize covid's cumulative impact on various co
      + <a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis.ipynb" target="_blank">Jupyter Notebook Viewer - Full 
   Project</a>
      + <a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis_visuals.ipynb" target="_blank">Jupyter Notebook Viewer - Visuals</a>
-
-## 
-![Various Plots](https://github.com/megano/vaccine/blob/main/images/covid-deaths-proportional-county-map.png "Covid Deaths County Map")
 
 
 
