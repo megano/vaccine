@@ -6,7 +6,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/megano/vaccine)
 
 # Covid-19 Vaccine Distribution
-**Project Status: In progress**
+**Project Status: We are iterating on our modeling work around this use case**
 <br>
 <a href="https://nbviewer.jupyter.org/github/megano/vaccine/blob/main/prioritization_analysis.ipynb" target="_blank">Jupyter Notebook Viewer - Full Project</a>
 <br>
@@ -24,30 +24,24 @@
 ## Project Objective
 [(Back to top)](#table-of-contents)
 <br>
-This project aims to create data visualizations and zip code prioritizations to aid public health officials in deciding where and how to distribute the covid-19 vaccines and what equity metrics to use to track distribution. Since that's where we live, we're currently focused on California but can run a similar analysis on any of the 50 US states. Please reach out if you think your state or county would be interested to learn more about this project.
+This project aims to create **data visualizations and zip code prioritizations** to aid public health officials in deciding **where to distribute the COVID-19 vaccines** in California.  Also we analyze equity metrics to track distribution. We live in CA, so we're currently focused on our state but can run a similar analysis on any of the 50 US states. Please reach out to me via twtter if you think your state or county would be interested to learn more about this project.
 
-## Data
+## Source Data
 [(Back to top)](#table-of-contents)
 <br>
 We use several data sources to visualize covid's cumulative impact on various counties in California including: census data, Healthy Places Index, and CCVI scores.
 <br>
-**Covid 19 Data (Update frequency - Daily):**
-+ Covid19 Confirmed Cases: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
-+ Covid19 Total Deaths: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
-G<br>
+1. Covid 19 Data (Update frequency - Daily):
+- Covid19 Confirmed Cases: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
+- Covid19 Total Deaths: https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv
+2. California Hospital Data by County (Update frequency - Daily):
+- Hospital Data: https://data.ca.gov/dataset/529ac907-6ba1-4cb7-9aae-8966fc96aeef
+3. California Population Data by County:
+- Population Data: https://worldpopulationreview.com/us-counties/states/ca
+4. California Geo JSON file for Folium choropleth map**:
+- California Geo JSON Data: https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson
 
-**California Hospital Data by County (Update frequency - Daily):**
-+ Hospital Data: https://data.ca.gov/dataset/529ac907-6ba1-4cb7-9aae-8966fc96aeef
-<br>
-
-**California Population Data by County:**
-+ Population Data: https://worldpopulationreview.com/us-counties/states/ca
-<br>
-
-**California Geo JSON file for Folium choropleth map**:
-+ California Geo JSON Data: https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson
-
-## Methods Used
+## Data Science Methods
 [(Back to top)](#table-of-contents)
 <br>
 + Data Collection 
@@ -56,20 +50,13 @@ G<br>
 + Exploratory Data Analysis
 + Data Visualization
 
-## Technologies:
+## ML Technologies:
 [(Back to top)](#table-of-contents)
 <br>
-+ Google Colab
-+ Jupyter Notebook
-+ Python
-+ Pandas
-+ NumPy
-+ Matplotlib
-+ Seaborn 
-+ Plotly
-+ Folium
-+ Copy
-+ Json
++ Dev Env -> Google Colab / Jupyter Notebook
++ Languages/Libaries -> Python / Pandas / NumPy
++ Viz -> Matplotlib/ Seaborn/ Plotly
++ Other -> Folium/ Copy/ Json
 
 ## Project Description:
 [(Back to top)](#table-of-contents)
@@ -82,6 +69,7 @@ G<br>
 ## Project Results:
 [(Back to top)](#table-of-contents)
 <br>
++ Our notebooks visualize our findings, plotted on CA-state maps
 
 ## Installation:
 [(Back to top)](#table-of-contents)
